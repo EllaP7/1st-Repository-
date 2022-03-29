@@ -1,5 +1,7 @@
 ## CITC 1300 Project Page
 
-<h1>Project List</h1>
+<h1>Basic Web Projects</h1>
 
-<a href="PROJECT1/index.html" target="_blank">Project 1</a>
+<ul>
+  <a href="Lab 2/index.html" target="_blank">Lab 2</a>
+<ul>
