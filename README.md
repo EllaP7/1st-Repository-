@@ -1,3 +1,5 @@
-## CITC 1300
+## CITC 1300 Project Page
 
-<a href="example/index.html">Example Page</a>
+<h1>Project List</h1>
+
+<a href="PROJECT1/index.html" target="_blank">Project 1</a>
