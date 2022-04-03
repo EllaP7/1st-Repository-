@@ -1,0 +1,98 @@
+body {
+    background-color: #5C734C;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color: #F2F2F2;
+    margin: 1px;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 8px double #A68572;
+    border-top: 8px double #A68572;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.col {
+    border: 4px outset #D9CCC1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.col h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.col img {
+    width: 100%;
+}
+
+.main_img {
+    display: none;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 8px double #A67D65;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+@media(min-width: 768px) {
+    #container {
+        width: 95%;
+        margin: 5px auto;
+    }
+    .col {
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    .col img {
+        width: 80%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #container {
+        width: 90%;
+        border-radius: 0;
+    }
+    
+    #flex {
+        display: flex;
+    }
+
+    .col {
+        margin: 10px;
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .main_img {
+       display: block; 
+       width: 50%;
+       margin: 20px auto;
+    }
+}
