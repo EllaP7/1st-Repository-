@@ -103,6 +103,18 @@ footer {
     width: 81%;
 }
 
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid #828C6C;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
 /* Tablet Styles */
 
 @media(min-width:768px) {
