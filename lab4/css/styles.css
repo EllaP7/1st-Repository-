@@ -115,6 +115,10 @@ audio, video {
     margin: 10px auto;
 }
 
+table {
+    display: none;
+}
+
 /* Tablet Styles */
 
 @media(min-width:768px) {
@@ -225,7 +229,5 @@ audio, video {
         display: block;
     }
 
-    td {
-        
-    }
+   
 }
