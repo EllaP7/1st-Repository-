@@ -1,0 +1,238 @@
+/* Global Styles */
+body {
+    background-color: #D9C2A7;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Styles */
+
+#container {
+    background-color: #86A6A0;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/dirty_paintbrushes.jpg');
+    background-size: cover;
+    padding: 70px 0;
+}
+
+header h1 {
+    color: #112622;
+    text-shadow: 2px 2px 2px #595142;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #6C8C89;
+    color: #595142;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #8FC1B5;
+    text-shadow: 2px 2px 2px #589A8D; 
+}
+
+nav, section, aside, .col, footer {
+    background-color: #F2E3D5;
+    padding: 20px;
+    margin: 10px;
+    border: 4px outset #6C8C89;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #402727;
+    text-shadow: 2px 2px 2px #A68877;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 100%;
+}
+
+.button {
+    display: block;
+    background-color: #6C8C89;
+    color: #112622;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: #8FC1B5;
+    text-shadow: 2px 2px 2px #589A8D; 
+}
+
+footer {
+    text-align: center;
+    color: #6C8C89;
+    margin-bottom: 20px;
+}
+
+.single_col {
+    width: 81%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery_img {
+    border: 4px solid #6C8C89;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media(min-width:768px) {
+    header{
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 100%;
+    }
+
+    aside img {
+        width: 100%;
+    }
+
+    .col img {
+        width: 100%;
+        border-radius: 10px;
+        border: 4px solid #6C8C89;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+
+    audio, video {
+        display: block;
+        margin: 20px auto;
+    }
+
+    table {
+        display: none;
+    }
+}
+
+
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid #BFA393;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 80%;
+    }
+
+    .col img {
+        width: 100%;
+    }
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #59664C;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+
+   
+}
