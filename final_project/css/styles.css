@@ -18,7 +18,7 @@ img {
 }
 
 header {
-    background-image: url('../images/dirty_paintbrushes.jpg');
+    background-image: url('../images/books.jpg');
     background-size: cover;
     padding: 70px 0;
 }
@@ -67,12 +67,12 @@ nav, section, aside, .col, footer {
 h2, h3 {
     color: #402727;
     text-shadow: 2px 2px 2px #A68877;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
 }
 
 section img, aside img {
-    width: 100%;
+    width: 80%;
 }
 
 .button {
