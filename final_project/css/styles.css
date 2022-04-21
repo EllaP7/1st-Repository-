@@ -27,6 +27,7 @@ header h1 {
     color: #112622;
     text-shadow: 2px 2px 2px #595142;
     text-align: center;
+    font-family:'Grape Nuts', cursive;;
 }
 
 nav ul {
@@ -69,6 +70,7 @@ h2, h3 {
     text-shadow: 2px 2px 2px #A68877;
     font-size: 2em;
     text-align: center;
+    font-family: 'Square Peg', cursive;
 }
 
 section img, aside img {
@@ -97,6 +99,7 @@ footer {
     text-align: center;
     color: #6C8C89;
     margin-bottom: 20px;
+    font-family: 'Grape Nuts', cursive;
 }
 
 .single_col {
@@ -129,10 +132,12 @@ table {
 @media(min-width:768px) {
     header{
         padding: 125px;
+        font-family: 'Square Peg', cursive;
     }
 
     header h1 {
         font-size: 3em;
+        font-family: 'Grape Nuts', cursive;
     }
 
     nav {
